@@ -1,3 +1,4 @@
+
 import javax.swing.*;
 
 /**
@@ -7,7 +8,18 @@ public class Front {
 
     public static void main(String[] args) {
 
-        JFrame frame1 = new JFrame("Result");
+        try{
+            for (UIManager.LookAndFeelInfo info : UIManager.getInstalledLookAndFeels()){
+                if("Nimbus".equals(info.getName())){
+                    UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        }catch(Exception e){
+            System.out.println("Failed To lOAd nimbus Look and feel.....!");
+        }
+
+        JFrame frame1 = new JFrame();
         frame1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         FrontScreen screen1 = new FrontScreen();
@@ -19,5 +31,6 @@ public class Front {
 
         frame1.setVisible(true);
         frame1.pack();
+
     }
 }

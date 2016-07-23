@@ -1,94 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="FacultyReg">
-  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="7" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="9" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="500" height="400"/>
+      <xy x="20" y="20" width="606" height="400"/>
     </constraints>
     <properties>
-      <preferredSize width="450" height="400"/>
+      <preferredSize width="4500" height="4000"/>
     </properties>
     <border type="none"/>
     <children>
       <component id="d6ba9" class="javax.swing.JLabel">
         <constraints>
-          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <font name="Comic Sans MS" size="20" style="1"/>
+          <font name="Comic Sans MS" size="36" style="1"/>
           <foreground color="-16777054"/>
           <text value="Faculty Registration"/>
         </properties>
       </component>
       <component id="60e0" class="javax.swing.JLabel">
         <constraints>
-          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font size="18"/>
           <text value="Name:"/>
         </properties>
       </component>
       <component id="98569" class="javax.swing.JLabel">
         <constraints>
-          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font size="18"/>
           <text value="Username:"/>
         </properties>
       </component>
       <component id="1f508" class="javax.swing.JLabel">
         <constraints>
-          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font size="18"/>
           <text value="Password:"/>
         </properties>
       </component>
       <component id="c2ac3" class="javax.swing.JLabel">
         <constraints>
-          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font size="18"/>
           <text value="Department:"/>
         </properties>
       </component>
       <component id="bd0c0" class="javax.swing.JTextField" binding="userText">
         <constraints>
-          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
-            <preferred-size width="200" height="3"/>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="300" height="3"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <font size="18"/>
+        </properties>
       </component>
       <component id="62bc" class="javax.swing.JButton" binding="subButton">
         <constraints>
-          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font size="14"/>
           <text value="Submit"/>
         </properties>
       </component>
       <component id="f898b" class="javax.swing.JButton" binding="resetButton">
         <constraints>
-          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font size="14"/>
           <text value="Reset"/>
         </properties>
       </component>
       <component id="f1bf8" class="javax.swing.JTextField" binding="nameText">
         <constraints>
-          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
-            <preferred-size width="200" height="3"/>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="300" height="3"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <font size="18"/>
+        </properties>
       </component>
       <component id="971b9" class="javax.swing.JComboBox" binding="comboDep">
         <constraints>
-          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font size="18"/>
           <model>
             <item value="Master Of Computer Application"/>
             <item value="Computer Science"/>
@@ -101,27 +112,114 @@
       </component>
       <component id="8c4bf" class="javax.swing.JPasswordField" binding="passText1">
         <constraints>
-          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
-            <preferred-size width="200" height="3"/>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="300" height="3"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <font size="18"/>
+        </properties>
       </component>
       <component id="7b763" class="javax.swing.JLabel">
         <constraints>
-          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font size="18"/>
           <text value="Confirm password:"/>
         </properties>
       </component>
       <component id="93d3e" class="javax.swing.JPasswordField" binding="passText">
         <constraints>
-          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
-            <preferred-size width="200" height="3"/>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="300" height="3"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <font size="18"/>
+        </properties>
+      </component>
+      <component id="5b503" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="18"/>
+          <text value="Semester:"/>
+        </properties>
+      </component>
+      <component id="ef388" class="javax.swing.JComboBox" binding="comboSem">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="18"/>
+          <model>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+          </model>
+        </properties>
+      </component>
+      <component id="55005" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="18"/>
+          <text value="Subject:"/>
+        </properties>
+      </component>
+      <component id="98e25" class="javax.swing.JComboBox" binding="subCombo">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="18"/>
+          <model>
+            <item value="MIS"/>
+            <item value="Artificial Intelligence"/>
+            <item value="Mobile Computing"/>
+            <item value="Distributed System"/>
+            <item value="Web Tech"/>
+            <item value="DAA"/>
+            <item value="Operating System"/>
+            <item value="Java"/>
+            <item value="DBMS"/>
+            <item value="CBOT"/>
+            <item value="Data Structure"/>
+            <item value="Automata"/>
+            <item value="CBNST"/>
+            <item value="Computer Organization"/>
+            <item value="Envt and Ecology"/>
+            <item value="C Programming"/>
+            <item value="Accountancy"/>
+            <item value="Discrete Mathematics"/>
+            <item value="Professional Communication"/>
+            <item value="DLD"/>
+          </model>
+        </properties>
+      </component>
+      <component id="1d8b4" class="javax.swing.JButton" binding="backButton">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+          <foreground color="-39071"/>
+          <text value="Back"/>
+        </properties>
+      </component>
+      <component id="e7ea3" class="javax.swing.JButton" binding="exit">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+          <foreground color="-51149"/>
+          <text value="Exit"/>
+        </properties>
       </component>
     </children>
   </grid>
